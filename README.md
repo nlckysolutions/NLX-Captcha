@@ -21,5 +21,7 @@ The result is a string, either 1 or 0. If the result is 1, then ChatGPT thinks i
 
 # Pricing
 One NLXCaptcha request:
+
 GPT-4: ~$0.01
+
 GPT-3.5-TURBO: ~$0.001
