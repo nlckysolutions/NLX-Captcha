@@ -13,11 +13,9 @@ pip install nlxcaptcha
 ```
 import nlxcaptcha
 
-result, certainty = nlxcaptcha.verify(difficulty=5, openaiapikey="your-openai-api-key")
-print(f"Result: {result}, Certainty: {certainty}")
+result = nlxcaptcha.verify(difficulty=1.5, openaiapikey="your-openai-api-key")
+print(f"Result: {result}")
 ```
 
 If result = 1 then this is an iPad kid.
 Otherwise it's not.
-
-Certainty is a string structured as "99%". How confident the AI is with it's answer.
