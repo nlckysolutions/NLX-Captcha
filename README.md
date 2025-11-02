@@ -1,5 +1,5 @@
 # NLX-Captcha
-Captcha to identify "iPad kids". Useful for blocking 8 year olds from accessing your content.
+Captcha to identify "iPad kids".
 
 (THIS COSTS MONEY! USES OPENAI API)
 Uses gpt-4 or gpt-3.5-turbo. One request per captcha completion.
